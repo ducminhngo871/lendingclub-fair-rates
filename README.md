@@ -6,7 +6,8 @@ rate, tests investing strategies on loans the models never saw, and looks at the
 rejected. Everything ends in an interactive web app.
 
 * **Report:** [`report/report.md`](report/report.md) (English, every finding has a number)
-* **Web app:** `streamlit run app/streamlit_app.py` (public link: *add after deploying, see below*)
+* **Live web app:** https://lendingclub-fair-rates-xf37oc9po9tl399n2mnyah.streamlit.app/ (or run locally: `streamlit run app/streamlit_app.py`)
+* **Related project:** [Stock price prediction app](https://stockpriceprediction-ducngo.streamlit.app/)
 * **Mentors:** [`docs/MENTOR_GUIDE.md`](docs/MENTOR_GUIDE.md) maps the 14 weeks to the code and lists the traps
 * **Original brief (Vietnamese):** [`docs/project_brief_vi.md`](docs/project_brief_vi.md)
 
@@ -80,7 +81,7 @@ ruff check .
 
 1. Push this folder to GitHub (the `.gitignore` already keeps raw data and tokens out).
 2. On [share.streamlit.io](https://share.streamlit.io) choose the repository and set the main file to `app/streamlit_app.py`.
-3. Paste the public link at the top of this README.
+3. Paste the public link at the top of this README (done: see the live link above).
 
 ## Limits
 
