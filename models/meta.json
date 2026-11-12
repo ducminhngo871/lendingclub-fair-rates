@@ -1,0 +1,56 @@
+{
+  "feature_columns": [
+    "loan_amnt",
+    "term_months",
+    "log_annual_inc",
+    "dti",
+    "fico_mid",
+    "emp_length_years",
+    "revol_util",
+    "log_revol_bal",
+    "delinq_2yrs",
+    "inq_last_6mths",
+    "pub_rec",
+    "open_acc",
+    "total_acc",
+    "credit_history_years",
+    "loan_to_income",
+    "purpose",
+    "home_ownership"
+  ],
+  "lgd": 0.5552545910792768,
+  "best_iteration": 150,
+  "train_years": [
+    2007,
+    2013
+  ],
+  "test_years": [
+    2014,
+    2015
+  ],
+  "grade_mean_model_pd": {
+    "A": 0.07636,
+    "B": 0.12014,
+    "C": 0.15414,
+    "D": 0.17956,
+    "E": 0.20041,
+    "F": 0.21708,
+    "G": 0.24093
+  },
+  "grade_mean_interest_rate": {
+    "A": 0.07087,
+    "B": 0.10449,
+    "C": 0.13544,
+    "D": 0.16789,
+    "E": 0.19625,
+    "F": 0.23921,
+    "G": 0.26382
+  },
+  "test_auc": {
+    "LendingClub sub-grade A1-G5": 0.6712420067402401,
+    "LendingClub interest rate": 0.6675416206756237,
+    "LightGBM (mine)": 0.6616802662371005,
+    "LendingClub grade A-G": 0.6607841126893905,
+    "Logistic regression (mine)": 0.6553636564333503
+  }
+}

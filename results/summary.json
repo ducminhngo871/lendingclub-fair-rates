@@ -1,0 +1,8 @@
+{
+  "n_clean_loans": 673314,
+  "n_train": 227957,
+  "n_test": 445357,
+  "lgd": 0.5552545910792768,
+  "overall_default_rate": 0.14813593657639676,
+  "test_default_rate": 0.14461207525647962
+}

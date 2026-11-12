@@ -1,0 +1,17 @@
+# Raw data (about 4 GB unzipped) and secrets never go to GitHub
+data/raw/
+data/processed/
+kaggle.json
+access_token
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Kept in the repo on purpose: models/, results/, app/data/ (small, needed by the app)

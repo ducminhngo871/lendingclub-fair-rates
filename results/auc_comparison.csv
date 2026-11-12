@@ -1,0 +1,6 @@
+score,auc
+LendingClub sub-grade A1-G5,0.6712420067402401
+LendingClub interest rate,0.6675416206756237
+LightGBM (mine),0.6616802662371005
+LendingClub grade A-G,0.6607841126893905
+Logistic regression (mine),0.6553636564333503

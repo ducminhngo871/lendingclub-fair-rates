@@ -1,0 +1,4 @@
+inputs,cv_auc
+LendingClub sub-grade only,0.6707460873363782
+My LightGBM only,0.6616077848649907
+Both together,0.6842131292741699

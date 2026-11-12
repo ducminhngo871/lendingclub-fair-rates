@@ -1,0 +1,10 @@
+# What the web app needs (Streamlit Community Cloud reads this file)
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+lightgbm
+joblib
+plotly
+streamlit

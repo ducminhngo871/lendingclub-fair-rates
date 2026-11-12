@@ -1,0 +1,11 @@
+# Everything needed to rebuild the project from raw data, run tests and notebooks
+-r requirements.txt
+shap
+matplotlib
+kaggle
+jupyter
+nbformat
+nbconvert
+ipykernel
+pytest
+ruff

@@ -1,0 +1,18 @@
+feature,mean_abs_shap,direction
+fico_mid,0.2864811094665216,higher value -> less risk
+term_months,0.18838189151190926,higher value -> less risk
+log_annual_inc,0.1546617351374105,higher value -> less risk
+inq_last_6mths,0.13517388405397862,higher value -> more risk
+loan_to_income,0.13243690241977918,higher value -> more risk
+purpose,0.09120033471603291,category
+dti,0.09064635938075184,higher value -> more risk
+revol_util,0.07067712186438811,higher value -> more risk
+open_acc,0.06758807751991625,higher value -> more risk
+home_ownership,0.06736035713961384,category
+log_revol_bal,0.04818370847329155,higher value -> less risk
+emp_length_years,0.04060864720561243,higher value -> more risk
+total_acc,0.04059463904393954,higher value -> less risk
+credit_history_years,0.03220686454657058,higher value -> less risk
+loan_amnt,0.029980728590154604,higher value -> more risk
+delinq_2yrs,0.009261215726198056,higher value -> less risk
+pub_rec,0.0069326555024990365,higher value -> less risk
